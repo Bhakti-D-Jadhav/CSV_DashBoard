@@ -100,6 +100,7 @@ def create_pdf_report(df, bar, line, pie=None):
         Spacer(1, 20),
 
         # Add bar chart image
+        
         Image(bar, 420, 220),
 
         Spacer(1, 15),
